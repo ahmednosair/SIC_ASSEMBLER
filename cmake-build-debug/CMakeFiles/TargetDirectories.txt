@@ -1,0 +1,3 @@
+/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/CMakeFiles/SIC_ASSEMBLER.dir

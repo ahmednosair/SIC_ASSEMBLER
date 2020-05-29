@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SIC_ASSEMBLER"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SIC_ASSEMBLER">
+				<Option output="/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/SIC_ASSEMBLER" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/Makefile&quot;  VERBOSE=1 SIC_ASSEMBLER"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SIC_ASSEMBLER/fast">
+				<Option output="/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/SIC_ASSEMBLER" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/Makefile&quot;  VERBOSE=1 SIC_ASSEMBLER/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/Assembler.cpp">
+			<Option target="SIC_ASSEMBLER"/>
+		</Unit>
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/Assembler.h">
+			<Option target="SIC_ASSEMBLER"/>
+		</Unit>
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/Directive.cpp">
+			<Option target="SIC_ASSEMBLER"/>
+		</Unit>
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/Directive.h">
+			<Option target="SIC_ASSEMBLER"/>
+		</Unit>
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/Exp.cpp">
+			<Option target="SIC_ASSEMBLER"/>
+		</Unit>
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/Exp.h">
+			<Option target="SIC_ASSEMBLER"/>
+		</Unit>
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/ExpFwdRef.cpp">
+			<Option target="SIC_ASSEMBLER"/>
+		</Unit>
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/ExpFwdRef.h">
+			<Option target="SIC_ASSEMBLER"/>
+		</Unit>
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/FwdRef.cpp">
+			<Option target="SIC_ASSEMBLER"/>
+		</Unit>
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/FwdRef.h">
+			<Option target="SIC_ASSEMBLER"/>
+		</Unit>
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/Inst.cpp">
+			<Option target="SIC_ASSEMBLER"/>
+		</Unit>
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/Inst.h">
+			<Option target="SIC_ASSEMBLER"/>
+		</Unit>
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/Parser.cpp">
+			<Option target="SIC_ASSEMBLER"/>
+		</Unit>
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/Parser.h">
+			<Option target="SIC_ASSEMBLER"/>
+		</Unit>
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/SymEntry.cpp">
+			<Option target="SIC_ASSEMBLER"/>
+		</Unit>
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/SymEntry.h">
+			<Option target="SIC_ASSEMBLER"/>
+		</Unit>
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/SymTable.cpp">
+			<Option target="SIC_ASSEMBLER"/>
+		</Unit>
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/SymTable.h">
+			<Option target="SIC_ASSEMBLER"/>
+		</Unit>
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/TextRec.cpp">
+			<Option target="SIC_ASSEMBLER"/>
+		</Unit>
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/TextRec.h">
+			<Option target="SIC_ASSEMBLER"/>
+		</Unit>
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/Util.cpp">
+			<Option target="SIC_ASSEMBLER"/>
+		</Unit>
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/Util.h">
+			<Option target="SIC_ASSEMBLER"/>
+		</Unit>
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/main.cpp">
+			<Option target="SIC_ASSEMBLER"/>
+		</Unit>
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
