@@ -4,8 +4,6 @@
 
 #include "../headers/Assembler.h"
 #include <bits/stdc++.h>
-#include "../headers/Parser.h"
-#include "../headers/TextRec.h"
 #include "../headers/Util.h"
 
 using namespace std;
@@ -513,6 +511,13 @@ string Assembler::assembleFormatFour(Inst &ins) {
             return Util::addZeros(Util::decToHex(mask), 8);
         }
     }
+}
+
+void Assembler::createListFile() {
+    ofstream listing;
+    listing.open("listFile.txt");
+    listing << symTable.getTable();
+    listing.close();
 }
 
 

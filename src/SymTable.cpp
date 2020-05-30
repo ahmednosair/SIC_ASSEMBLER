@@ -60,14 +60,37 @@ pair<vector<string>, string> SymTable::getUnresolvedExp() {
                 result.push_back(expFwd.exp.sOp);
             }
         } else {
-            int fVal = fOpNum ? stoi(expFwd.exp.fOp) : (expFwd.exp.fOp=="LC"?expFwd.locCnt:get(expFwd.exp.fOp).addr);
-            int sVal = sOpNum ? stoi(expFwd.exp.sOp) : (expFwd.exp.sOp=="LC"?expFwd.locCnt:get(expFwd.exp.sOp).addr);
+            int fVal = fOpNum ? stoi(expFwd.exp.fOp) : (expFwd.exp.fOp == "LC" ? expFwd.locCnt : get(
+                    expFwd.exp.fOp).addr);
+            int sVal = sOpNum ? stoi(expFwd.exp.sOp) : (expFwd.exp.sOp == "LC" ? expFwd.locCnt : get(
+                    expFwd.exp.sOp).addr);
             SymEntry symEntry(true, expFwd.exp.evaluate(fVal, sVal));
             FwdRef f(expFwd.locCnt, expFwd.base, expFwd.e, expFwd.x, expFwd.addr, expFwd.isBase);
             s << (expFwd.e ? symEntry.resolveFormatFour(f) : symEntry.resolveFormatThree(f));
         }
     }
     return {result, s.str()};
+}
+
+string SymTable::getTable() {
+    stringstream s;
+    s << "Symbol";
+    s.width(21);
+    s << "Address" << endl;
+    s.width(0);
+    vector<pair<int, string>> list;
+    int i ;
+    for (auto &entry:table) {
+        list.emplace_back(entry.second.addr, entry.first);
+    }
+    sort(list.begin(), list.end());
+    for (i = 0; i < list.size(); i++) {
+        s << list[i].second;
+        s.width(25 - list[i].second.length());
+        s << Util::addZeros(Util::decToHex(list[i].first), 5) << endl;
+        s.width(0);
+    }
+    return Util::toUpper(s.str());
 }
 
 SymTable::SymTable() = default;

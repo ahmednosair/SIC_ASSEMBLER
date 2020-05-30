@@ -33,6 +33,8 @@ public:
 
     pair<vector<string>, string> getUnresolvedExp();
 
+    string getTable();
+
 private:
     unordered_map<string, SymEntry> table;
     vector<ExpFwdRef> expFwdRefers;

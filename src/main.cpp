@@ -5,17 +5,20 @@ using namespace std;
 
 int main() {
     string str;
-    cout << ">>To use enter: file path\n>>To exit enter: Exit\n>>";
+    cout << "Welcome to SIC/XE assembler\n\n";
+    cout << ">>To use enter: Source file path without quotes.\n>>To exit enter: Exit.\n>>";
     cin >> str;
     while (Util::toUpper(str) != "EXIT") {
         Assembler assembler;
         try {
             if (assembler.assemble(str)) {
-                cout << "Successful assembly! [Output file Name: objectCode.txt]\n";
+                assembler.createListFile();
+                cout << "\nSuccessful assembly! [Output Files: objectCode.txt, ListFile.txt]\n";
             }
         } catch (...) {
         }
-        cout << ">>To use enter: file path without quotes\n>>To exit enter: Exit\n>>";
+        cout <<"\n";
+        cout << ">>To use enter: Source file path without quotes.\n>>To exit enter: Exit.\n>>";
         cin >> str;
     }
 

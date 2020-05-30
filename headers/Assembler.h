@@ -50,6 +50,8 @@ public:
     bool checkExp(Inst &inst);
 
     bool checkExpress(Exp &exp);
+
+    void createListFile();
 };
 
 

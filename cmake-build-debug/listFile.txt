@@ -1,0 +1,16 @@
+SYMBOL              ADDRESS
+BGN                 00000
+LOOP                0000D
+SLOP                00017
+SWAP                0004B
+INC                 00054
+ELO                 0005C
+EXIT                00061
+STR                 00064
+PR                  00067
+IT                  0006A
+SIT                 0006D
+SLB                 00070
+TMP                 00073
+STMP                00076
+LC                  00079
