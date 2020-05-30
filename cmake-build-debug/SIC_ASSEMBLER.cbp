@@ -84,73 +84,73 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/Assembler.cpp">
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/headers/Assembler.h">
 			<Option target="SIC_ASSEMBLER"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/Assembler.h">
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/headers/Directive.h">
 			<Option target="SIC_ASSEMBLER"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/Directive.cpp">
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/headers/Exp.h">
 			<Option target="SIC_ASSEMBLER"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/Directive.h">
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/headers/ExpFwdRef.h">
 			<Option target="SIC_ASSEMBLER"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/Exp.cpp">
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/headers/FwdRef.h">
 			<Option target="SIC_ASSEMBLER"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/Exp.h">
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/headers/Inst.h">
 			<Option target="SIC_ASSEMBLER"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/ExpFwdRef.cpp">
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/headers/Parser.h">
 			<Option target="SIC_ASSEMBLER"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/ExpFwdRef.h">
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/headers/SymEntry.h">
 			<Option target="SIC_ASSEMBLER"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/FwdRef.cpp">
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/headers/SymTable.h">
 			<Option target="SIC_ASSEMBLER"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/FwdRef.h">
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/headers/TextRec.h">
 			<Option target="SIC_ASSEMBLER"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/Inst.cpp">
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/headers/Util.h">
 			<Option target="SIC_ASSEMBLER"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/Inst.h">
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/src/Assembler.cpp">
 			<Option target="SIC_ASSEMBLER"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/Parser.cpp">
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/src/Directive.cpp">
 			<Option target="SIC_ASSEMBLER"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/Parser.h">
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/src/Exp.cpp">
 			<Option target="SIC_ASSEMBLER"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/SymEntry.cpp">
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/src/ExpFwdRef.cpp">
 			<Option target="SIC_ASSEMBLER"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/SymEntry.h">
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/src/FwdRef.cpp">
 			<Option target="SIC_ASSEMBLER"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/SymTable.cpp">
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/src/Inst.cpp">
 			<Option target="SIC_ASSEMBLER"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/SymTable.h">
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/src/Parser.cpp">
 			<Option target="SIC_ASSEMBLER"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/TextRec.cpp">
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/src/SymEntry.cpp">
 			<Option target="SIC_ASSEMBLER"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/TextRec.h">
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/src/SymTable.cpp">
 			<Option target="SIC_ASSEMBLER"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/Util.cpp">
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/src/TextRec.cpp">
 			<Option target="SIC_ASSEMBLER"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/Util.h">
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/src/Util.cpp">
 			<Option target="SIC_ASSEMBLER"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/main.cpp">
+		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/src/main.cpp">
 			<Option target="SIC_ASSEMBLER"/>
 		</Unit>
 		<Unit filename="/home/ahmed/CLionProjects/SIC_ASSEMBLER/CMakeLists.txt">

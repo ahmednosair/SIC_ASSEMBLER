@@ -57,192 +57,192 @@ include CMakeFiles/SIC_ASSEMBLER.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/SIC_ASSEMBLER.dir/flags.make
 
-CMakeFiles/SIC_ASSEMBLER.dir/main.cpp.o: CMakeFiles/SIC_ASSEMBLER.dir/flags.make
-CMakeFiles/SIC_ASSEMBLER.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SIC_ASSEMBLER.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIC_ASSEMBLER.dir/main.cpp.o -c /home/ahmed/CLionProjects/SIC_ASSEMBLER/main.cpp
+CMakeFiles/SIC_ASSEMBLER.dir/src/main.cpp.o: CMakeFiles/SIC_ASSEMBLER.dir/flags.make
+CMakeFiles/SIC_ASSEMBLER.dir/src/main.cpp.o: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SIC_ASSEMBLER.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIC_ASSEMBLER.dir/src/main.cpp.o -c /home/ahmed/CLionProjects/SIC_ASSEMBLER/src/main.cpp
 
-CMakeFiles/SIC_ASSEMBLER.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SIC_ASSEMBLER.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/CLionProjects/SIC_ASSEMBLER/main.cpp > CMakeFiles/SIC_ASSEMBLER.dir/main.cpp.i
+CMakeFiles/SIC_ASSEMBLER.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SIC_ASSEMBLER.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/CLionProjects/SIC_ASSEMBLER/src/main.cpp > CMakeFiles/SIC_ASSEMBLER.dir/src/main.cpp.i
 
-CMakeFiles/SIC_ASSEMBLER.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SIC_ASSEMBLER.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/CLionProjects/SIC_ASSEMBLER/main.cpp -o CMakeFiles/SIC_ASSEMBLER.dir/main.cpp.s
+CMakeFiles/SIC_ASSEMBLER.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SIC_ASSEMBLER.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/CLionProjects/SIC_ASSEMBLER/src/main.cpp -o CMakeFiles/SIC_ASSEMBLER.dir/src/main.cpp.s
 
-CMakeFiles/SIC_ASSEMBLER.dir/Parser.cpp.o: CMakeFiles/SIC_ASSEMBLER.dir/flags.make
-CMakeFiles/SIC_ASSEMBLER.dir/Parser.cpp.o: ../Parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SIC_ASSEMBLER.dir/Parser.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIC_ASSEMBLER.dir/Parser.cpp.o -c /home/ahmed/CLionProjects/SIC_ASSEMBLER/Parser.cpp
+CMakeFiles/SIC_ASSEMBLER.dir/src/Parser.cpp.o: CMakeFiles/SIC_ASSEMBLER.dir/flags.make
+CMakeFiles/SIC_ASSEMBLER.dir/src/Parser.cpp.o: ../src/Parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SIC_ASSEMBLER.dir/src/Parser.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIC_ASSEMBLER.dir/src/Parser.cpp.o -c /home/ahmed/CLionProjects/SIC_ASSEMBLER/src/Parser.cpp
 
-CMakeFiles/SIC_ASSEMBLER.dir/Parser.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SIC_ASSEMBLER.dir/Parser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/CLionProjects/SIC_ASSEMBLER/Parser.cpp > CMakeFiles/SIC_ASSEMBLER.dir/Parser.cpp.i
+CMakeFiles/SIC_ASSEMBLER.dir/src/Parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SIC_ASSEMBLER.dir/src/Parser.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/CLionProjects/SIC_ASSEMBLER/src/Parser.cpp > CMakeFiles/SIC_ASSEMBLER.dir/src/Parser.cpp.i
 
-CMakeFiles/SIC_ASSEMBLER.dir/Parser.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SIC_ASSEMBLER.dir/Parser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/CLionProjects/SIC_ASSEMBLER/Parser.cpp -o CMakeFiles/SIC_ASSEMBLER.dir/Parser.cpp.s
+CMakeFiles/SIC_ASSEMBLER.dir/src/Parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SIC_ASSEMBLER.dir/src/Parser.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/CLionProjects/SIC_ASSEMBLER/src/Parser.cpp -o CMakeFiles/SIC_ASSEMBLER.dir/src/Parser.cpp.s
 
-CMakeFiles/SIC_ASSEMBLER.dir/Inst.cpp.o: CMakeFiles/SIC_ASSEMBLER.dir/flags.make
-CMakeFiles/SIC_ASSEMBLER.dir/Inst.cpp.o: ../Inst.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SIC_ASSEMBLER.dir/Inst.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIC_ASSEMBLER.dir/Inst.cpp.o -c /home/ahmed/CLionProjects/SIC_ASSEMBLER/Inst.cpp
+CMakeFiles/SIC_ASSEMBLER.dir/src/Inst.cpp.o: CMakeFiles/SIC_ASSEMBLER.dir/flags.make
+CMakeFiles/SIC_ASSEMBLER.dir/src/Inst.cpp.o: ../src/Inst.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SIC_ASSEMBLER.dir/src/Inst.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIC_ASSEMBLER.dir/src/Inst.cpp.o -c /home/ahmed/CLionProjects/SIC_ASSEMBLER/src/Inst.cpp
 
-CMakeFiles/SIC_ASSEMBLER.dir/Inst.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SIC_ASSEMBLER.dir/Inst.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/CLionProjects/SIC_ASSEMBLER/Inst.cpp > CMakeFiles/SIC_ASSEMBLER.dir/Inst.cpp.i
+CMakeFiles/SIC_ASSEMBLER.dir/src/Inst.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SIC_ASSEMBLER.dir/src/Inst.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/CLionProjects/SIC_ASSEMBLER/src/Inst.cpp > CMakeFiles/SIC_ASSEMBLER.dir/src/Inst.cpp.i
 
-CMakeFiles/SIC_ASSEMBLER.dir/Inst.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SIC_ASSEMBLER.dir/Inst.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/CLionProjects/SIC_ASSEMBLER/Inst.cpp -o CMakeFiles/SIC_ASSEMBLER.dir/Inst.cpp.s
+CMakeFiles/SIC_ASSEMBLER.dir/src/Inst.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SIC_ASSEMBLER.dir/src/Inst.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/CLionProjects/SIC_ASSEMBLER/src/Inst.cpp -o CMakeFiles/SIC_ASSEMBLER.dir/src/Inst.cpp.s
 
-CMakeFiles/SIC_ASSEMBLER.dir/Directive.cpp.o: CMakeFiles/SIC_ASSEMBLER.dir/flags.make
-CMakeFiles/SIC_ASSEMBLER.dir/Directive.cpp.o: ../Directive.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SIC_ASSEMBLER.dir/Directive.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIC_ASSEMBLER.dir/Directive.cpp.o -c /home/ahmed/CLionProjects/SIC_ASSEMBLER/Directive.cpp
+CMakeFiles/SIC_ASSEMBLER.dir/src/Directive.cpp.o: CMakeFiles/SIC_ASSEMBLER.dir/flags.make
+CMakeFiles/SIC_ASSEMBLER.dir/src/Directive.cpp.o: ../src/Directive.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SIC_ASSEMBLER.dir/src/Directive.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIC_ASSEMBLER.dir/src/Directive.cpp.o -c /home/ahmed/CLionProjects/SIC_ASSEMBLER/src/Directive.cpp
 
-CMakeFiles/SIC_ASSEMBLER.dir/Directive.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SIC_ASSEMBLER.dir/Directive.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/CLionProjects/SIC_ASSEMBLER/Directive.cpp > CMakeFiles/SIC_ASSEMBLER.dir/Directive.cpp.i
+CMakeFiles/SIC_ASSEMBLER.dir/src/Directive.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SIC_ASSEMBLER.dir/src/Directive.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/CLionProjects/SIC_ASSEMBLER/src/Directive.cpp > CMakeFiles/SIC_ASSEMBLER.dir/src/Directive.cpp.i
 
-CMakeFiles/SIC_ASSEMBLER.dir/Directive.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SIC_ASSEMBLER.dir/Directive.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/CLionProjects/SIC_ASSEMBLER/Directive.cpp -o CMakeFiles/SIC_ASSEMBLER.dir/Directive.cpp.s
+CMakeFiles/SIC_ASSEMBLER.dir/src/Directive.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SIC_ASSEMBLER.dir/src/Directive.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/CLionProjects/SIC_ASSEMBLER/src/Directive.cpp -o CMakeFiles/SIC_ASSEMBLER.dir/src/Directive.cpp.s
 
-CMakeFiles/SIC_ASSEMBLER.dir/Exp.cpp.o: CMakeFiles/SIC_ASSEMBLER.dir/flags.make
-CMakeFiles/SIC_ASSEMBLER.dir/Exp.cpp.o: ../Exp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SIC_ASSEMBLER.dir/Exp.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIC_ASSEMBLER.dir/Exp.cpp.o -c /home/ahmed/CLionProjects/SIC_ASSEMBLER/Exp.cpp
+CMakeFiles/SIC_ASSEMBLER.dir/src/Exp.cpp.o: CMakeFiles/SIC_ASSEMBLER.dir/flags.make
+CMakeFiles/SIC_ASSEMBLER.dir/src/Exp.cpp.o: ../src/Exp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SIC_ASSEMBLER.dir/src/Exp.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIC_ASSEMBLER.dir/src/Exp.cpp.o -c /home/ahmed/CLionProjects/SIC_ASSEMBLER/src/Exp.cpp
 
-CMakeFiles/SIC_ASSEMBLER.dir/Exp.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SIC_ASSEMBLER.dir/Exp.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/CLionProjects/SIC_ASSEMBLER/Exp.cpp > CMakeFiles/SIC_ASSEMBLER.dir/Exp.cpp.i
+CMakeFiles/SIC_ASSEMBLER.dir/src/Exp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SIC_ASSEMBLER.dir/src/Exp.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/CLionProjects/SIC_ASSEMBLER/src/Exp.cpp > CMakeFiles/SIC_ASSEMBLER.dir/src/Exp.cpp.i
 
-CMakeFiles/SIC_ASSEMBLER.dir/Exp.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SIC_ASSEMBLER.dir/Exp.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/CLionProjects/SIC_ASSEMBLER/Exp.cpp -o CMakeFiles/SIC_ASSEMBLER.dir/Exp.cpp.s
+CMakeFiles/SIC_ASSEMBLER.dir/src/Exp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SIC_ASSEMBLER.dir/src/Exp.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/CLionProjects/SIC_ASSEMBLER/src/Exp.cpp -o CMakeFiles/SIC_ASSEMBLER.dir/src/Exp.cpp.s
 
-CMakeFiles/SIC_ASSEMBLER.dir/Assembler.cpp.o: CMakeFiles/SIC_ASSEMBLER.dir/flags.make
-CMakeFiles/SIC_ASSEMBLER.dir/Assembler.cpp.o: ../Assembler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SIC_ASSEMBLER.dir/Assembler.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIC_ASSEMBLER.dir/Assembler.cpp.o -c /home/ahmed/CLionProjects/SIC_ASSEMBLER/Assembler.cpp
+CMakeFiles/SIC_ASSEMBLER.dir/src/Assembler.cpp.o: CMakeFiles/SIC_ASSEMBLER.dir/flags.make
+CMakeFiles/SIC_ASSEMBLER.dir/src/Assembler.cpp.o: ../src/Assembler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SIC_ASSEMBLER.dir/src/Assembler.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIC_ASSEMBLER.dir/src/Assembler.cpp.o -c /home/ahmed/CLionProjects/SIC_ASSEMBLER/src/Assembler.cpp
 
-CMakeFiles/SIC_ASSEMBLER.dir/Assembler.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SIC_ASSEMBLER.dir/Assembler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/CLionProjects/SIC_ASSEMBLER/Assembler.cpp > CMakeFiles/SIC_ASSEMBLER.dir/Assembler.cpp.i
+CMakeFiles/SIC_ASSEMBLER.dir/src/Assembler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SIC_ASSEMBLER.dir/src/Assembler.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/CLionProjects/SIC_ASSEMBLER/src/Assembler.cpp > CMakeFiles/SIC_ASSEMBLER.dir/src/Assembler.cpp.i
 
-CMakeFiles/SIC_ASSEMBLER.dir/Assembler.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SIC_ASSEMBLER.dir/Assembler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/CLionProjects/SIC_ASSEMBLER/Assembler.cpp -o CMakeFiles/SIC_ASSEMBLER.dir/Assembler.cpp.s
+CMakeFiles/SIC_ASSEMBLER.dir/src/Assembler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SIC_ASSEMBLER.dir/src/Assembler.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/CLionProjects/SIC_ASSEMBLER/src/Assembler.cpp -o CMakeFiles/SIC_ASSEMBLER.dir/src/Assembler.cpp.s
 
-CMakeFiles/SIC_ASSEMBLER.dir/SymTable.cpp.o: CMakeFiles/SIC_ASSEMBLER.dir/flags.make
-CMakeFiles/SIC_ASSEMBLER.dir/SymTable.cpp.o: ../SymTable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SIC_ASSEMBLER.dir/SymTable.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIC_ASSEMBLER.dir/SymTable.cpp.o -c /home/ahmed/CLionProjects/SIC_ASSEMBLER/SymTable.cpp
+CMakeFiles/SIC_ASSEMBLER.dir/src/SymTable.cpp.o: CMakeFiles/SIC_ASSEMBLER.dir/flags.make
+CMakeFiles/SIC_ASSEMBLER.dir/src/SymTable.cpp.o: ../src/SymTable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SIC_ASSEMBLER.dir/src/SymTable.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIC_ASSEMBLER.dir/src/SymTable.cpp.o -c /home/ahmed/CLionProjects/SIC_ASSEMBLER/src/SymTable.cpp
 
-CMakeFiles/SIC_ASSEMBLER.dir/SymTable.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SIC_ASSEMBLER.dir/SymTable.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/CLionProjects/SIC_ASSEMBLER/SymTable.cpp > CMakeFiles/SIC_ASSEMBLER.dir/SymTable.cpp.i
+CMakeFiles/SIC_ASSEMBLER.dir/src/SymTable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SIC_ASSEMBLER.dir/src/SymTable.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/CLionProjects/SIC_ASSEMBLER/src/SymTable.cpp > CMakeFiles/SIC_ASSEMBLER.dir/src/SymTable.cpp.i
 
-CMakeFiles/SIC_ASSEMBLER.dir/SymTable.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SIC_ASSEMBLER.dir/SymTable.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/CLionProjects/SIC_ASSEMBLER/SymTable.cpp -o CMakeFiles/SIC_ASSEMBLER.dir/SymTable.cpp.s
+CMakeFiles/SIC_ASSEMBLER.dir/src/SymTable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SIC_ASSEMBLER.dir/src/SymTable.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/CLionProjects/SIC_ASSEMBLER/src/SymTable.cpp -o CMakeFiles/SIC_ASSEMBLER.dir/src/SymTable.cpp.s
 
-CMakeFiles/SIC_ASSEMBLER.dir/SymEntry.cpp.o: CMakeFiles/SIC_ASSEMBLER.dir/flags.make
-CMakeFiles/SIC_ASSEMBLER.dir/SymEntry.cpp.o: ../SymEntry.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SIC_ASSEMBLER.dir/SymEntry.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIC_ASSEMBLER.dir/SymEntry.cpp.o -c /home/ahmed/CLionProjects/SIC_ASSEMBLER/SymEntry.cpp
+CMakeFiles/SIC_ASSEMBLER.dir/src/SymEntry.cpp.o: CMakeFiles/SIC_ASSEMBLER.dir/flags.make
+CMakeFiles/SIC_ASSEMBLER.dir/src/SymEntry.cpp.o: ../src/SymEntry.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SIC_ASSEMBLER.dir/src/SymEntry.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIC_ASSEMBLER.dir/src/SymEntry.cpp.o -c /home/ahmed/CLionProjects/SIC_ASSEMBLER/src/SymEntry.cpp
 
-CMakeFiles/SIC_ASSEMBLER.dir/SymEntry.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SIC_ASSEMBLER.dir/SymEntry.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/CLionProjects/SIC_ASSEMBLER/SymEntry.cpp > CMakeFiles/SIC_ASSEMBLER.dir/SymEntry.cpp.i
+CMakeFiles/SIC_ASSEMBLER.dir/src/SymEntry.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SIC_ASSEMBLER.dir/src/SymEntry.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/CLionProjects/SIC_ASSEMBLER/src/SymEntry.cpp > CMakeFiles/SIC_ASSEMBLER.dir/src/SymEntry.cpp.i
 
-CMakeFiles/SIC_ASSEMBLER.dir/SymEntry.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SIC_ASSEMBLER.dir/SymEntry.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/CLionProjects/SIC_ASSEMBLER/SymEntry.cpp -o CMakeFiles/SIC_ASSEMBLER.dir/SymEntry.cpp.s
+CMakeFiles/SIC_ASSEMBLER.dir/src/SymEntry.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SIC_ASSEMBLER.dir/src/SymEntry.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/CLionProjects/SIC_ASSEMBLER/src/SymEntry.cpp -o CMakeFiles/SIC_ASSEMBLER.dir/src/SymEntry.cpp.s
 
-CMakeFiles/SIC_ASSEMBLER.dir/FwdRef.cpp.o: CMakeFiles/SIC_ASSEMBLER.dir/flags.make
-CMakeFiles/SIC_ASSEMBLER.dir/FwdRef.cpp.o: ../FwdRef.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/SIC_ASSEMBLER.dir/FwdRef.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIC_ASSEMBLER.dir/FwdRef.cpp.o -c /home/ahmed/CLionProjects/SIC_ASSEMBLER/FwdRef.cpp
+CMakeFiles/SIC_ASSEMBLER.dir/src/FwdRef.cpp.o: CMakeFiles/SIC_ASSEMBLER.dir/flags.make
+CMakeFiles/SIC_ASSEMBLER.dir/src/FwdRef.cpp.o: ../src/FwdRef.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/SIC_ASSEMBLER.dir/src/FwdRef.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIC_ASSEMBLER.dir/src/FwdRef.cpp.o -c /home/ahmed/CLionProjects/SIC_ASSEMBLER/src/FwdRef.cpp
 
-CMakeFiles/SIC_ASSEMBLER.dir/FwdRef.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SIC_ASSEMBLER.dir/FwdRef.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/CLionProjects/SIC_ASSEMBLER/FwdRef.cpp > CMakeFiles/SIC_ASSEMBLER.dir/FwdRef.cpp.i
+CMakeFiles/SIC_ASSEMBLER.dir/src/FwdRef.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SIC_ASSEMBLER.dir/src/FwdRef.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/CLionProjects/SIC_ASSEMBLER/src/FwdRef.cpp > CMakeFiles/SIC_ASSEMBLER.dir/src/FwdRef.cpp.i
 
-CMakeFiles/SIC_ASSEMBLER.dir/FwdRef.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SIC_ASSEMBLER.dir/FwdRef.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/CLionProjects/SIC_ASSEMBLER/FwdRef.cpp -o CMakeFiles/SIC_ASSEMBLER.dir/FwdRef.cpp.s
+CMakeFiles/SIC_ASSEMBLER.dir/src/FwdRef.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SIC_ASSEMBLER.dir/src/FwdRef.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/CLionProjects/SIC_ASSEMBLER/src/FwdRef.cpp -o CMakeFiles/SIC_ASSEMBLER.dir/src/FwdRef.cpp.s
 
-CMakeFiles/SIC_ASSEMBLER.dir/TextRec.cpp.o: CMakeFiles/SIC_ASSEMBLER.dir/flags.make
-CMakeFiles/SIC_ASSEMBLER.dir/TextRec.cpp.o: ../TextRec.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/SIC_ASSEMBLER.dir/TextRec.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIC_ASSEMBLER.dir/TextRec.cpp.o -c /home/ahmed/CLionProjects/SIC_ASSEMBLER/TextRec.cpp
+CMakeFiles/SIC_ASSEMBLER.dir/src/TextRec.cpp.o: CMakeFiles/SIC_ASSEMBLER.dir/flags.make
+CMakeFiles/SIC_ASSEMBLER.dir/src/TextRec.cpp.o: ../src/TextRec.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/SIC_ASSEMBLER.dir/src/TextRec.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIC_ASSEMBLER.dir/src/TextRec.cpp.o -c /home/ahmed/CLionProjects/SIC_ASSEMBLER/src/TextRec.cpp
 
-CMakeFiles/SIC_ASSEMBLER.dir/TextRec.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SIC_ASSEMBLER.dir/TextRec.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/CLionProjects/SIC_ASSEMBLER/TextRec.cpp > CMakeFiles/SIC_ASSEMBLER.dir/TextRec.cpp.i
+CMakeFiles/SIC_ASSEMBLER.dir/src/TextRec.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SIC_ASSEMBLER.dir/src/TextRec.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/CLionProjects/SIC_ASSEMBLER/src/TextRec.cpp > CMakeFiles/SIC_ASSEMBLER.dir/src/TextRec.cpp.i
 
-CMakeFiles/SIC_ASSEMBLER.dir/TextRec.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SIC_ASSEMBLER.dir/TextRec.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/CLionProjects/SIC_ASSEMBLER/TextRec.cpp -o CMakeFiles/SIC_ASSEMBLER.dir/TextRec.cpp.s
+CMakeFiles/SIC_ASSEMBLER.dir/src/TextRec.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SIC_ASSEMBLER.dir/src/TextRec.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/CLionProjects/SIC_ASSEMBLER/src/TextRec.cpp -o CMakeFiles/SIC_ASSEMBLER.dir/src/TextRec.cpp.s
 
-CMakeFiles/SIC_ASSEMBLER.dir/Util.cpp.o: CMakeFiles/SIC_ASSEMBLER.dir/flags.make
-CMakeFiles/SIC_ASSEMBLER.dir/Util.cpp.o: ../Util.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/SIC_ASSEMBLER.dir/Util.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIC_ASSEMBLER.dir/Util.cpp.o -c /home/ahmed/CLionProjects/SIC_ASSEMBLER/Util.cpp
+CMakeFiles/SIC_ASSEMBLER.dir/src/Util.cpp.o: CMakeFiles/SIC_ASSEMBLER.dir/flags.make
+CMakeFiles/SIC_ASSEMBLER.dir/src/Util.cpp.o: ../src/Util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/SIC_ASSEMBLER.dir/src/Util.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIC_ASSEMBLER.dir/src/Util.cpp.o -c /home/ahmed/CLionProjects/SIC_ASSEMBLER/src/Util.cpp
 
-CMakeFiles/SIC_ASSEMBLER.dir/Util.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SIC_ASSEMBLER.dir/Util.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/CLionProjects/SIC_ASSEMBLER/Util.cpp > CMakeFiles/SIC_ASSEMBLER.dir/Util.cpp.i
+CMakeFiles/SIC_ASSEMBLER.dir/src/Util.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SIC_ASSEMBLER.dir/src/Util.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/CLionProjects/SIC_ASSEMBLER/src/Util.cpp > CMakeFiles/SIC_ASSEMBLER.dir/src/Util.cpp.i
 
-CMakeFiles/SIC_ASSEMBLER.dir/Util.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SIC_ASSEMBLER.dir/Util.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/CLionProjects/SIC_ASSEMBLER/Util.cpp -o CMakeFiles/SIC_ASSEMBLER.dir/Util.cpp.s
+CMakeFiles/SIC_ASSEMBLER.dir/src/Util.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SIC_ASSEMBLER.dir/src/Util.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/CLionProjects/SIC_ASSEMBLER/src/Util.cpp -o CMakeFiles/SIC_ASSEMBLER.dir/src/Util.cpp.s
 
-CMakeFiles/SIC_ASSEMBLER.dir/ExpFwdRef.cpp.o: CMakeFiles/SIC_ASSEMBLER.dir/flags.make
-CMakeFiles/SIC_ASSEMBLER.dir/ExpFwdRef.cpp.o: ../ExpFwdRef.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/SIC_ASSEMBLER.dir/ExpFwdRef.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIC_ASSEMBLER.dir/ExpFwdRef.cpp.o -c /home/ahmed/CLionProjects/SIC_ASSEMBLER/ExpFwdRef.cpp
+CMakeFiles/SIC_ASSEMBLER.dir/src/ExpFwdRef.cpp.o: CMakeFiles/SIC_ASSEMBLER.dir/flags.make
+CMakeFiles/SIC_ASSEMBLER.dir/src/ExpFwdRef.cpp.o: ../src/ExpFwdRef.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/SIC_ASSEMBLER.dir/src/ExpFwdRef.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIC_ASSEMBLER.dir/src/ExpFwdRef.cpp.o -c /home/ahmed/CLionProjects/SIC_ASSEMBLER/src/ExpFwdRef.cpp
 
-CMakeFiles/SIC_ASSEMBLER.dir/ExpFwdRef.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SIC_ASSEMBLER.dir/ExpFwdRef.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/CLionProjects/SIC_ASSEMBLER/ExpFwdRef.cpp > CMakeFiles/SIC_ASSEMBLER.dir/ExpFwdRef.cpp.i
+CMakeFiles/SIC_ASSEMBLER.dir/src/ExpFwdRef.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SIC_ASSEMBLER.dir/src/ExpFwdRef.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/CLionProjects/SIC_ASSEMBLER/src/ExpFwdRef.cpp > CMakeFiles/SIC_ASSEMBLER.dir/src/ExpFwdRef.cpp.i
 
-CMakeFiles/SIC_ASSEMBLER.dir/ExpFwdRef.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SIC_ASSEMBLER.dir/ExpFwdRef.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/CLionProjects/SIC_ASSEMBLER/ExpFwdRef.cpp -o CMakeFiles/SIC_ASSEMBLER.dir/ExpFwdRef.cpp.s
+CMakeFiles/SIC_ASSEMBLER.dir/src/ExpFwdRef.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SIC_ASSEMBLER.dir/src/ExpFwdRef.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/CLionProjects/SIC_ASSEMBLER/src/ExpFwdRef.cpp -o CMakeFiles/SIC_ASSEMBLER.dir/src/ExpFwdRef.cpp.s
 
 # Object files for target SIC_ASSEMBLER
 SIC_ASSEMBLER_OBJECTS = \
-"CMakeFiles/SIC_ASSEMBLER.dir/main.cpp.o" \
-"CMakeFiles/SIC_ASSEMBLER.dir/Parser.cpp.o" \
-"CMakeFiles/SIC_ASSEMBLER.dir/Inst.cpp.o" \
-"CMakeFiles/SIC_ASSEMBLER.dir/Directive.cpp.o" \
-"CMakeFiles/SIC_ASSEMBLER.dir/Exp.cpp.o" \
-"CMakeFiles/SIC_ASSEMBLER.dir/Assembler.cpp.o" \
-"CMakeFiles/SIC_ASSEMBLER.dir/SymTable.cpp.o" \
-"CMakeFiles/SIC_ASSEMBLER.dir/SymEntry.cpp.o" \
-"CMakeFiles/SIC_ASSEMBLER.dir/FwdRef.cpp.o" \
-"CMakeFiles/SIC_ASSEMBLER.dir/TextRec.cpp.o" \
-"CMakeFiles/SIC_ASSEMBLER.dir/Util.cpp.o" \
-"CMakeFiles/SIC_ASSEMBLER.dir/ExpFwdRef.cpp.o"
+"CMakeFiles/SIC_ASSEMBLER.dir/src/main.cpp.o" \
+"CMakeFiles/SIC_ASSEMBLER.dir/src/Parser.cpp.o" \
+"CMakeFiles/SIC_ASSEMBLER.dir/src/Inst.cpp.o" \
+"CMakeFiles/SIC_ASSEMBLER.dir/src/Directive.cpp.o" \
+"CMakeFiles/SIC_ASSEMBLER.dir/src/Exp.cpp.o" \
+"CMakeFiles/SIC_ASSEMBLER.dir/src/Assembler.cpp.o" \
+"CMakeFiles/SIC_ASSEMBLER.dir/src/SymTable.cpp.o" \
+"CMakeFiles/SIC_ASSEMBLER.dir/src/SymEntry.cpp.o" \
+"CMakeFiles/SIC_ASSEMBLER.dir/src/FwdRef.cpp.o" \
+"CMakeFiles/SIC_ASSEMBLER.dir/src/TextRec.cpp.o" \
+"CMakeFiles/SIC_ASSEMBLER.dir/src/Util.cpp.o" \
+"CMakeFiles/SIC_ASSEMBLER.dir/src/ExpFwdRef.cpp.o"
 
 # External object files for target SIC_ASSEMBLER
 SIC_ASSEMBLER_EXTERNAL_OBJECTS =
 
-SIC_ASSEMBLER: CMakeFiles/SIC_ASSEMBLER.dir/main.cpp.o
-SIC_ASSEMBLER: CMakeFiles/SIC_ASSEMBLER.dir/Parser.cpp.o
-SIC_ASSEMBLER: CMakeFiles/SIC_ASSEMBLER.dir/Inst.cpp.o
-SIC_ASSEMBLER: CMakeFiles/SIC_ASSEMBLER.dir/Directive.cpp.o
-SIC_ASSEMBLER: CMakeFiles/SIC_ASSEMBLER.dir/Exp.cpp.o
-SIC_ASSEMBLER: CMakeFiles/SIC_ASSEMBLER.dir/Assembler.cpp.o
-SIC_ASSEMBLER: CMakeFiles/SIC_ASSEMBLER.dir/SymTable.cpp.o
-SIC_ASSEMBLER: CMakeFiles/SIC_ASSEMBLER.dir/SymEntry.cpp.o
-SIC_ASSEMBLER: CMakeFiles/SIC_ASSEMBLER.dir/FwdRef.cpp.o
-SIC_ASSEMBLER: CMakeFiles/SIC_ASSEMBLER.dir/TextRec.cpp.o
-SIC_ASSEMBLER: CMakeFiles/SIC_ASSEMBLER.dir/Util.cpp.o
-SIC_ASSEMBLER: CMakeFiles/SIC_ASSEMBLER.dir/ExpFwdRef.cpp.o
+SIC_ASSEMBLER: CMakeFiles/SIC_ASSEMBLER.dir/src/main.cpp.o
+SIC_ASSEMBLER: CMakeFiles/SIC_ASSEMBLER.dir/src/Parser.cpp.o
+SIC_ASSEMBLER: CMakeFiles/SIC_ASSEMBLER.dir/src/Inst.cpp.o
+SIC_ASSEMBLER: CMakeFiles/SIC_ASSEMBLER.dir/src/Directive.cpp.o
+SIC_ASSEMBLER: CMakeFiles/SIC_ASSEMBLER.dir/src/Exp.cpp.o
+SIC_ASSEMBLER: CMakeFiles/SIC_ASSEMBLER.dir/src/Assembler.cpp.o
+SIC_ASSEMBLER: CMakeFiles/SIC_ASSEMBLER.dir/src/SymTable.cpp.o
+SIC_ASSEMBLER: CMakeFiles/SIC_ASSEMBLER.dir/src/SymEntry.cpp.o
+SIC_ASSEMBLER: CMakeFiles/SIC_ASSEMBLER.dir/src/FwdRef.cpp.o
+SIC_ASSEMBLER: CMakeFiles/SIC_ASSEMBLER.dir/src/TextRec.cpp.o
+SIC_ASSEMBLER: CMakeFiles/SIC_ASSEMBLER.dir/src/Util.cpp.o
+SIC_ASSEMBLER: CMakeFiles/SIC_ASSEMBLER.dir/src/ExpFwdRef.cpp.o
 SIC_ASSEMBLER: CMakeFiles/SIC_ASSEMBLER.dir/build.make
 SIC_ASSEMBLER: CMakeFiles/SIC_ASSEMBLER.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ahmed/CLionProjects/SIC_ASSEMBLER/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable SIC_ASSEMBLER"

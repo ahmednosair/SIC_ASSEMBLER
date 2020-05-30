@@ -123,329 +123,329 @@ SIC_ASSEMBLER/fast:
 	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/build
 .PHONY : SIC_ASSEMBLER/fast
 
-Assembler.o: Assembler.cpp.o
+src/Assembler.o: src/Assembler.cpp.o
 
-.PHONY : Assembler.o
-
-# target to build an object file
-Assembler.cpp.o:
-	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/Assembler.cpp.o
-.PHONY : Assembler.cpp.o
-
-Assembler.i: Assembler.cpp.i
-
-.PHONY : Assembler.i
-
-# target to preprocess a source file
-Assembler.cpp.i:
-	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/Assembler.cpp.i
-.PHONY : Assembler.cpp.i
-
-Assembler.s: Assembler.cpp.s
-
-.PHONY : Assembler.s
-
-# target to generate assembly for a file
-Assembler.cpp.s:
-	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/Assembler.cpp.s
-.PHONY : Assembler.cpp.s
-
-Directive.o: Directive.cpp.o
-
-.PHONY : Directive.o
+.PHONY : src/Assembler.o
 
 # target to build an object file
-Directive.cpp.o:
-	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/Directive.cpp.o
-.PHONY : Directive.cpp.o
+src/Assembler.cpp.o:
+	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/src/Assembler.cpp.o
+.PHONY : src/Assembler.cpp.o
 
-Directive.i: Directive.cpp.i
+src/Assembler.i: src/Assembler.cpp.i
 
-.PHONY : Directive.i
+.PHONY : src/Assembler.i
 
 # target to preprocess a source file
-Directive.cpp.i:
-	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/Directive.cpp.i
-.PHONY : Directive.cpp.i
+src/Assembler.cpp.i:
+	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/src/Assembler.cpp.i
+.PHONY : src/Assembler.cpp.i
 
-Directive.s: Directive.cpp.s
+src/Assembler.s: src/Assembler.cpp.s
 
-.PHONY : Directive.s
+.PHONY : src/Assembler.s
 
 # target to generate assembly for a file
-Directive.cpp.s:
-	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/Directive.cpp.s
-.PHONY : Directive.cpp.s
+src/Assembler.cpp.s:
+	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/src/Assembler.cpp.s
+.PHONY : src/Assembler.cpp.s
 
-Exp.o: Exp.cpp.o
+src/Directive.o: src/Directive.cpp.o
 
-.PHONY : Exp.o
+.PHONY : src/Directive.o
 
 # target to build an object file
-Exp.cpp.o:
-	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/Exp.cpp.o
-.PHONY : Exp.cpp.o
+src/Directive.cpp.o:
+	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/src/Directive.cpp.o
+.PHONY : src/Directive.cpp.o
 
-Exp.i: Exp.cpp.i
+src/Directive.i: src/Directive.cpp.i
 
-.PHONY : Exp.i
+.PHONY : src/Directive.i
 
 # target to preprocess a source file
-Exp.cpp.i:
-	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/Exp.cpp.i
-.PHONY : Exp.cpp.i
+src/Directive.cpp.i:
+	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/src/Directive.cpp.i
+.PHONY : src/Directive.cpp.i
 
-Exp.s: Exp.cpp.s
+src/Directive.s: src/Directive.cpp.s
 
-.PHONY : Exp.s
+.PHONY : src/Directive.s
 
 # target to generate assembly for a file
-Exp.cpp.s:
-	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/Exp.cpp.s
-.PHONY : Exp.cpp.s
+src/Directive.cpp.s:
+	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/src/Directive.cpp.s
+.PHONY : src/Directive.cpp.s
 
-ExpFwdRef.o: ExpFwdRef.cpp.o
+src/Exp.o: src/Exp.cpp.o
 
-.PHONY : ExpFwdRef.o
+.PHONY : src/Exp.o
 
 # target to build an object file
-ExpFwdRef.cpp.o:
-	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/ExpFwdRef.cpp.o
-.PHONY : ExpFwdRef.cpp.o
+src/Exp.cpp.o:
+	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/src/Exp.cpp.o
+.PHONY : src/Exp.cpp.o
 
-ExpFwdRef.i: ExpFwdRef.cpp.i
+src/Exp.i: src/Exp.cpp.i
 
-.PHONY : ExpFwdRef.i
+.PHONY : src/Exp.i
 
 # target to preprocess a source file
-ExpFwdRef.cpp.i:
-	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/ExpFwdRef.cpp.i
-.PHONY : ExpFwdRef.cpp.i
+src/Exp.cpp.i:
+	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/src/Exp.cpp.i
+.PHONY : src/Exp.cpp.i
 
-ExpFwdRef.s: ExpFwdRef.cpp.s
+src/Exp.s: src/Exp.cpp.s
 
-.PHONY : ExpFwdRef.s
+.PHONY : src/Exp.s
 
 # target to generate assembly for a file
-ExpFwdRef.cpp.s:
-	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/ExpFwdRef.cpp.s
-.PHONY : ExpFwdRef.cpp.s
+src/Exp.cpp.s:
+	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/src/Exp.cpp.s
+.PHONY : src/Exp.cpp.s
 
-FwdRef.o: FwdRef.cpp.o
+src/ExpFwdRef.o: src/ExpFwdRef.cpp.o
 
-.PHONY : FwdRef.o
+.PHONY : src/ExpFwdRef.o
 
 # target to build an object file
-FwdRef.cpp.o:
-	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/FwdRef.cpp.o
-.PHONY : FwdRef.cpp.o
+src/ExpFwdRef.cpp.o:
+	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/src/ExpFwdRef.cpp.o
+.PHONY : src/ExpFwdRef.cpp.o
 
-FwdRef.i: FwdRef.cpp.i
+src/ExpFwdRef.i: src/ExpFwdRef.cpp.i
 
-.PHONY : FwdRef.i
+.PHONY : src/ExpFwdRef.i
 
 # target to preprocess a source file
-FwdRef.cpp.i:
-	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/FwdRef.cpp.i
-.PHONY : FwdRef.cpp.i
+src/ExpFwdRef.cpp.i:
+	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/src/ExpFwdRef.cpp.i
+.PHONY : src/ExpFwdRef.cpp.i
 
-FwdRef.s: FwdRef.cpp.s
+src/ExpFwdRef.s: src/ExpFwdRef.cpp.s
 
-.PHONY : FwdRef.s
+.PHONY : src/ExpFwdRef.s
 
 # target to generate assembly for a file
-FwdRef.cpp.s:
-	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/FwdRef.cpp.s
-.PHONY : FwdRef.cpp.s
+src/ExpFwdRef.cpp.s:
+	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/src/ExpFwdRef.cpp.s
+.PHONY : src/ExpFwdRef.cpp.s
 
-Inst.o: Inst.cpp.o
+src/FwdRef.o: src/FwdRef.cpp.o
 
-.PHONY : Inst.o
+.PHONY : src/FwdRef.o
 
 # target to build an object file
-Inst.cpp.o:
-	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/Inst.cpp.o
-.PHONY : Inst.cpp.o
+src/FwdRef.cpp.o:
+	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/src/FwdRef.cpp.o
+.PHONY : src/FwdRef.cpp.o
 
-Inst.i: Inst.cpp.i
+src/FwdRef.i: src/FwdRef.cpp.i
 
-.PHONY : Inst.i
+.PHONY : src/FwdRef.i
 
 # target to preprocess a source file
-Inst.cpp.i:
-	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/Inst.cpp.i
-.PHONY : Inst.cpp.i
+src/FwdRef.cpp.i:
+	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/src/FwdRef.cpp.i
+.PHONY : src/FwdRef.cpp.i
 
-Inst.s: Inst.cpp.s
+src/FwdRef.s: src/FwdRef.cpp.s
 
-.PHONY : Inst.s
+.PHONY : src/FwdRef.s
 
 # target to generate assembly for a file
-Inst.cpp.s:
-	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/Inst.cpp.s
-.PHONY : Inst.cpp.s
+src/FwdRef.cpp.s:
+	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/src/FwdRef.cpp.s
+.PHONY : src/FwdRef.cpp.s
 
-Parser.o: Parser.cpp.o
+src/Inst.o: src/Inst.cpp.o
 
-.PHONY : Parser.o
+.PHONY : src/Inst.o
 
 # target to build an object file
-Parser.cpp.o:
-	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/Parser.cpp.o
-.PHONY : Parser.cpp.o
+src/Inst.cpp.o:
+	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/src/Inst.cpp.o
+.PHONY : src/Inst.cpp.o
 
-Parser.i: Parser.cpp.i
+src/Inst.i: src/Inst.cpp.i
 
-.PHONY : Parser.i
+.PHONY : src/Inst.i
 
 # target to preprocess a source file
-Parser.cpp.i:
-	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/Parser.cpp.i
-.PHONY : Parser.cpp.i
+src/Inst.cpp.i:
+	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/src/Inst.cpp.i
+.PHONY : src/Inst.cpp.i
 
-Parser.s: Parser.cpp.s
+src/Inst.s: src/Inst.cpp.s
 
-.PHONY : Parser.s
+.PHONY : src/Inst.s
 
 # target to generate assembly for a file
-Parser.cpp.s:
-	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/Parser.cpp.s
-.PHONY : Parser.cpp.s
+src/Inst.cpp.s:
+	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/src/Inst.cpp.s
+.PHONY : src/Inst.cpp.s
 
-SymEntry.o: SymEntry.cpp.o
+src/Parser.o: src/Parser.cpp.o
 
-.PHONY : SymEntry.o
+.PHONY : src/Parser.o
 
 # target to build an object file
-SymEntry.cpp.o:
-	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/SymEntry.cpp.o
-.PHONY : SymEntry.cpp.o
+src/Parser.cpp.o:
+	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/src/Parser.cpp.o
+.PHONY : src/Parser.cpp.o
 
-SymEntry.i: SymEntry.cpp.i
+src/Parser.i: src/Parser.cpp.i
 
-.PHONY : SymEntry.i
+.PHONY : src/Parser.i
 
 # target to preprocess a source file
-SymEntry.cpp.i:
-	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/SymEntry.cpp.i
-.PHONY : SymEntry.cpp.i
+src/Parser.cpp.i:
+	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/src/Parser.cpp.i
+.PHONY : src/Parser.cpp.i
 
-SymEntry.s: SymEntry.cpp.s
+src/Parser.s: src/Parser.cpp.s
 
-.PHONY : SymEntry.s
+.PHONY : src/Parser.s
 
 # target to generate assembly for a file
-SymEntry.cpp.s:
-	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/SymEntry.cpp.s
-.PHONY : SymEntry.cpp.s
+src/Parser.cpp.s:
+	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/src/Parser.cpp.s
+.PHONY : src/Parser.cpp.s
 
-SymTable.o: SymTable.cpp.o
+src/SymEntry.o: src/SymEntry.cpp.o
 
-.PHONY : SymTable.o
+.PHONY : src/SymEntry.o
 
 # target to build an object file
-SymTable.cpp.o:
-	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/SymTable.cpp.o
-.PHONY : SymTable.cpp.o
+src/SymEntry.cpp.o:
+	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/src/SymEntry.cpp.o
+.PHONY : src/SymEntry.cpp.o
 
-SymTable.i: SymTable.cpp.i
+src/SymEntry.i: src/SymEntry.cpp.i
 
-.PHONY : SymTable.i
+.PHONY : src/SymEntry.i
 
 # target to preprocess a source file
-SymTable.cpp.i:
-	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/SymTable.cpp.i
-.PHONY : SymTable.cpp.i
+src/SymEntry.cpp.i:
+	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/src/SymEntry.cpp.i
+.PHONY : src/SymEntry.cpp.i
 
-SymTable.s: SymTable.cpp.s
+src/SymEntry.s: src/SymEntry.cpp.s
 
-.PHONY : SymTable.s
+.PHONY : src/SymEntry.s
 
 # target to generate assembly for a file
-SymTable.cpp.s:
-	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/SymTable.cpp.s
-.PHONY : SymTable.cpp.s
+src/SymEntry.cpp.s:
+	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/src/SymEntry.cpp.s
+.PHONY : src/SymEntry.cpp.s
 
-TextRec.o: TextRec.cpp.o
+src/SymTable.o: src/SymTable.cpp.o
 
-.PHONY : TextRec.o
+.PHONY : src/SymTable.o
 
 # target to build an object file
-TextRec.cpp.o:
-	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/TextRec.cpp.o
-.PHONY : TextRec.cpp.o
+src/SymTable.cpp.o:
+	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/src/SymTable.cpp.o
+.PHONY : src/SymTable.cpp.o
 
-TextRec.i: TextRec.cpp.i
+src/SymTable.i: src/SymTable.cpp.i
 
-.PHONY : TextRec.i
+.PHONY : src/SymTable.i
 
 # target to preprocess a source file
-TextRec.cpp.i:
-	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/TextRec.cpp.i
-.PHONY : TextRec.cpp.i
+src/SymTable.cpp.i:
+	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/src/SymTable.cpp.i
+.PHONY : src/SymTable.cpp.i
 
-TextRec.s: TextRec.cpp.s
+src/SymTable.s: src/SymTable.cpp.s
 
-.PHONY : TextRec.s
+.PHONY : src/SymTable.s
 
 # target to generate assembly for a file
-TextRec.cpp.s:
-	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/TextRec.cpp.s
-.PHONY : TextRec.cpp.s
+src/SymTable.cpp.s:
+	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/src/SymTable.cpp.s
+.PHONY : src/SymTable.cpp.s
 
-Util.o: Util.cpp.o
+src/TextRec.o: src/TextRec.cpp.o
 
-.PHONY : Util.o
+.PHONY : src/TextRec.o
 
 # target to build an object file
-Util.cpp.o:
-	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/Util.cpp.o
-.PHONY : Util.cpp.o
+src/TextRec.cpp.o:
+	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/src/TextRec.cpp.o
+.PHONY : src/TextRec.cpp.o
 
-Util.i: Util.cpp.i
+src/TextRec.i: src/TextRec.cpp.i
 
-.PHONY : Util.i
+.PHONY : src/TextRec.i
 
 # target to preprocess a source file
-Util.cpp.i:
-	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/Util.cpp.i
-.PHONY : Util.cpp.i
+src/TextRec.cpp.i:
+	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/src/TextRec.cpp.i
+.PHONY : src/TextRec.cpp.i
 
-Util.s: Util.cpp.s
+src/TextRec.s: src/TextRec.cpp.s
 
-.PHONY : Util.s
+.PHONY : src/TextRec.s
 
 # target to generate assembly for a file
-Util.cpp.s:
-	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/Util.cpp.s
-.PHONY : Util.cpp.s
+src/TextRec.cpp.s:
+	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/src/TextRec.cpp.s
+.PHONY : src/TextRec.cpp.s
 
-main.o: main.cpp.o
+src/Util.o: src/Util.cpp.o
 
-.PHONY : main.o
+.PHONY : src/Util.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/Util.cpp.o:
+	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/src/Util.cpp.o
+.PHONY : src/Util.cpp.o
 
-main.i: main.cpp.i
+src/Util.i: src/Util.cpp.i
 
-.PHONY : main.i
+.PHONY : src/Util.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/Util.cpp.i:
+	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/src/Util.cpp.i
+.PHONY : src/Util.cpp.i
 
-main.s: main.cpp.s
+src/Util.s: src/Util.cpp.s
 
-.PHONY : main.s
+.PHONY : src/Util.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/Util.cpp.s:
+	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/src/Util.cpp.s
+.PHONY : src/Util.cpp.s
+
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/SIC_ASSEMBLER.dir/build.make CMakeFiles/SIC_ASSEMBLER.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -456,42 +456,42 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... SIC_ASSEMBLER"
-	@echo "... Assembler.o"
-	@echo "... Assembler.i"
-	@echo "... Assembler.s"
-	@echo "... Directive.o"
-	@echo "... Directive.i"
-	@echo "... Directive.s"
-	@echo "... Exp.o"
-	@echo "... Exp.i"
-	@echo "... Exp.s"
-	@echo "... ExpFwdRef.o"
-	@echo "... ExpFwdRef.i"
-	@echo "... ExpFwdRef.s"
-	@echo "... FwdRef.o"
-	@echo "... FwdRef.i"
-	@echo "... FwdRef.s"
-	@echo "... Inst.o"
-	@echo "... Inst.i"
-	@echo "... Inst.s"
-	@echo "... Parser.o"
-	@echo "... Parser.i"
-	@echo "... Parser.s"
-	@echo "... SymEntry.o"
-	@echo "... SymEntry.i"
-	@echo "... SymEntry.s"
-	@echo "... SymTable.o"
-	@echo "... SymTable.i"
-	@echo "... SymTable.s"
-	@echo "... TextRec.o"
-	@echo "... TextRec.i"
-	@echo "... TextRec.s"
-	@echo "... Util.o"
-	@echo "... Util.i"
-	@echo "... Util.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/Assembler.o"
+	@echo "... src/Assembler.i"
+	@echo "... src/Assembler.s"
+	@echo "... src/Directive.o"
+	@echo "... src/Directive.i"
+	@echo "... src/Directive.s"
+	@echo "... src/Exp.o"
+	@echo "... src/Exp.i"
+	@echo "... src/Exp.s"
+	@echo "... src/ExpFwdRef.o"
+	@echo "... src/ExpFwdRef.i"
+	@echo "... src/ExpFwdRef.s"
+	@echo "... src/FwdRef.o"
+	@echo "... src/FwdRef.i"
+	@echo "... src/FwdRef.s"
+	@echo "... src/Inst.o"
+	@echo "... src/Inst.i"
+	@echo "... src/Inst.s"
+	@echo "... src/Parser.o"
+	@echo "... src/Parser.i"
+	@echo "... src/Parser.s"
+	@echo "... src/SymEntry.o"
+	@echo "... src/SymEntry.i"
+	@echo "... src/SymEntry.s"
+	@echo "... src/SymTable.o"
+	@echo "... src/SymTable.i"
+	@echo "... src/SymTable.s"
+	@echo "... src/TextRec.o"
+	@echo "... src/TextRec.i"
+	@echo "... src/TextRec.s"
+	@echo "... src/Util.o"
+	@echo "... src/Util.i"
+	@echo "... src/Util.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

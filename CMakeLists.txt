@@ -3,4 +3,4 @@ project(SIC_ASSEMBLER)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(SIC_ASSEMBLER main.cpp Parser.cpp Parser.h Inst.cpp Inst.h Directive.cpp Directive.h Exp.cpp Exp.h Assembler.cpp Assembler.h SymTable.cpp SymTable.h SymEntry.cpp SymEntry.h FwdRef.cpp FwdRef.h TextRec.cpp TextRec.h Util.cpp Util.h ExpFwdRef.cpp ExpFwdRef.h)
+add_executable(SIC_ASSEMBLER src/main.cpp src/Parser.cpp headers/Parser.h src/Inst.cpp headers/Inst.h src/Directive.cpp headers/Directive.h src/Exp.cpp headers/Exp.h src/Assembler.cpp headers/Assembler.h src/SymTable.cpp headers/SymTable.h src/SymEntry.cpp headers/SymEntry.h src/FwdRef.cpp headers/FwdRef.h src/TextRec.cpp headers/TextRec.h src/Util.cpp headers/Util.h src/ExpFwdRef.cpp headers/ExpFwdRef.h)
