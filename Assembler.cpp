@@ -207,6 +207,7 @@ bool Assembler::assemble(string &filePath) {
     ofstream output;
     output.open("objectCode.txt");
     output << Util::toUpper(startStr) << Util::toUpper(objectCode.str());
+    output.close();
     return true;
 }
 

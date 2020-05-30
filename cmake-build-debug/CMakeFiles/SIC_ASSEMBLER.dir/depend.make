@@ -73,5 +73,6 @@ CMakeFiles/SIC_ASSEMBLER.dir/main.cpp.o: ../Parser.h
 CMakeFiles/SIC_ASSEMBLER.dir/main.cpp.o: ../SymEntry.h
 CMakeFiles/SIC_ASSEMBLER.dir/main.cpp.o: ../SymTable.h
 CMakeFiles/SIC_ASSEMBLER.dir/main.cpp.o: ../TextRec.h
+CMakeFiles/SIC_ASSEMBLER.dir/main.cpp.o: ../Util.h
 CMakeFiles/SIC_ASSEMBLER.dir/main.cpp.o: ../main.cpp
 

@@ -38,7 +38,7 @@ string SymEntry::resolveFormatThree(FwdRef &fwdRefer) const {
     string flags((fwdRefer.x ? "1000" : "0000"));
     if (val - fwdRefer.locCnt >= -2048 && val - fwdRefer.locCnt < 2047) {
         flags[2] = '1';
-        val -= (fwdRefer.locCnt + 3);
+        val -= (fwdRefer.locCnt );
     } else if (fwdRefer.isBase && val - fwdRefer.base >= 0 && val - fwdRefer.base < 4096) {
         flags[1] = '1';
         val -= fwdRefer.base;

@@ -6,34 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/ahmed/CLionProjects/SIC_ASSEMBLER/Assembler.cpp
-Assembler.h
-/home/ahmed/CLionProjects/SIC_ASSEMBLER/Assembler.h
-bits/stdc++.h
--
-Parser.h
-/home/ahmed/CLionProjects/SIC_ASSEMBLER/Parser.h
-TextRec.h
-/home/ahmed/CLionProjects/SIC_ASSEMBLER/TextRec.h
-Util.h
-/home/ahmed/CLionProjects/SIC_ASSEMBLER/Util.h
-
-/home/ahmed/CLionProjects/SIC_ASSEMBLER/Assembler.h
-bits/stdc++.h
--
-Parser.h
-/home/ahmed/CLionProjects/SIC_ASSEMBLER/Parser.h
-SymTable.h
-/home/ahmed/CLionProjects/SIC_ASSEMBLER/SymTable.h
-TextRec.h
-/home/ahmed/CLionProjects/SIC_ASSEMBLER/TextRec.h
-
-/home/ahmed/CLionProjects/SIC_ASSEMBLER/Directive.h
-bits/stdc++.h
--
-Exp.h
-/home/ahmed/CLionProjects/SIC_ASSEMBLER/Exp.h
-
 /home/ahmed/CLionProjects/SIC_ASSEMBLER/Exp.h
 bits/stdc++.h
 -
@@ -46,31 +18,17 @@ Exp.h
 Exp.h
 /home/ahmed/CLionProjects/SIC_ASSEMBLER/Exp.h
 
-/home/ahmed/CLionProjects/SIC_ASSEMBLER/Inst.cpp
-Inst.h
-/home/ahmed/CLionProjects/SIC_ASSEMBLER/Inst.h
-
-/home/ahmed/CLionProjects/SIC_ASSEMBLER/Inst.h
+/home/ahmed/CLionProjects/SIC_ASSEMBLER/SymEntry.cpp
+SymEntry.h
+/home/ahmed/CLionProjects/SIC_ASSEMBLER/SymEntry.h
 bits/stdc++.h
 -
-Exp.h
-/home/ahmed/CLionProjects/SIC_ASSEMBLER/Exp.h
-
-/home/ahmed/CLionProjects/SIC_ASSEMBLER/Parser.cpp
-bits/stdc++.h
--
-Parser.h
-/home/ahmed/CLionProjects/SIC_ASSEMBLER/Parser.h
+FwdRef.h
+/home/ahmed/CLionProjects/SIC_ASSEMBLER/FwdRef.h
+TextRec.h
+/home/ahmed/CLionProjects/SIC_ASSEMBLER/TextRec.h
 Util.h
 /home/ahmed/CLionProjects/SIC_ASSEMBLER/Util.h
-
-/home/ahmed/CLionProjects/SIC_ASSEMBLER/Parser.h
-bits/stdc++.h
--
-Inst.h
-/home/ahmed/CLionProjects/SIC_ASSEMBLER/Inst.h
-Directive.h
-/home/ahmed/CLionProjects/SIC_ASSEMBLER/Directive.h
 
 /home/ahmed/CLionProjects/SIC_ASSEMBLER/SymEntry.h
 bits/stdc++.h
@@ -79,12 +37,6 @@ FwdRef.h
 /home/ahmed/CLionProjects/SIC_ASSEMBLER/FwdRef.h
 ExpFwdRef.h
 /home/ahmed/CLionProjects/SIC_ASSEMBLER/ExpFwdRef.h
-
-/home/ahmed/CLionProjects/SIC_ASSEMBLER/SymTable.h
-bits/stdc++.h
--
-SymEntry.h
-/home/ahmed/CLionProjects/SIC_ASSEMBLER/SymEntry.h
 
 /home/ahmed/CLionProjects/SIC_ASSEMBLER/TextRec.h
 bits/stdc++.h
