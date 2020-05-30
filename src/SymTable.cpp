@@ -79,7 +79,7 @@ string SymTable::getTable() {
     s << "Address" << endl;
     s.width(0);
     vector<pair<int, string>> list;
-    int i ;
+    int i;
     for (auto &entry:table) {
         list.emplace_back(entry.second.addr, entry.first);
     }
@@ -91,6 +91,11 @@ string SymTable::getTable() {
         s.width(0);
     }
     return Util::toUpper(s.str());
+}
+
+void SymTable::clear() {
+    table.clear();
+    expFwdRefers.clear();
 }
 
 SymTable::SymTable() = default;

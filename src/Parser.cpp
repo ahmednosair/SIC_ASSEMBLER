@@ -9,9 +9,10 @@ using namespace std;
 
 
 Parser::Parser() {
-    formatOne = R"(^\s*(([A-Z][A-Z0-9]*)\s+)?(RSUB)(\s+(.*)$|$))";
+    formatOne = R"(^\s*(([A-Z][A-Z0-9]*)\s+)?(FIX|FLOAT|HIO|NORM|SIO|TIO)\s*$)";
     formatTwoWithTwoReg = R"(^\s*(([A-Z][A-Z0-9]*)\s+)?(ADDR|COMPR|DIVR|MULR|SHIFTL|SHIFTR|RMO|SUBR)\s+([AXLBSTF]|PC|SW)\s*,\s*([AXLBSTF]|PC|SW|[1-9]|[1][1-9]|[2][1-4])\s*$)";
     formatTwoWithOneReg = R"(^\s*(([A-Z][A-Z0-9]*)\s+)?(TIXR|CLEAR)\s+([AXLBSTF]|PC|SW)\s*$)";
+    formatThreeFourNoOp = R"(^\s*(([A-Z][A-Z0-9]*)\s+)?\s*(\+)?\s*(RSUB)(\s+(.*)$|$))";
     formatThreeFourSym = R"(^\s*(([A-Z][A-Z0-9]*)\s+)?(\+)?\s*(ADD|COMP|COMPF|DIV|DIVF|FIX|FLOAT|J|JLT|JEQ|JGT|JSUB|LDA|LDB|LDCH|LDF|LDL|LDS|LDT|LDX|LPS|MUL|MULF|NORM|OR|RD|RSUB|SSK|STA|STB|STCH|STF|STI|STL|STS|STSW|STT|STX|SUB|SUBF|TD|TIX|WD)\s+(#|@)?\s*([A-Z][A-Z0-9]*|((\s*([A-Z][A-Z0-9]*)\s*-\s*([A-Z][A-Z0-9]*)\s*)|(\s*-\s*([A-Z][A-Z0-9]*)\s*\+\s*([A-Z][A-Z0-9]*)\s*)|(\s*([A-Z][A-Z0-9]*)\s*[-\+]\s*\d+\s*)|(\s*[-\+]?\s*\d+\s*\+\s*([A-Z][A-Z0-9]*)\s*)))\s*(,\s*(X)\s*)?$)";
     formatThreeFourNonSym = R"(^\s*(([A-Z][A-Z0-9]*)\s+)?(\+)?\s*(ADD|COMP|COMPF|DIV|DIVF|FIX|FLOAT|JLT|J|JEQ|JGT|JSUB|LDA|LDB|LDCH|LDF|LDL|LDS|LDT|LDX|LPS|MUL|MULF|NORM|OR|RD|RSUB|SSK|STA|STB|STCH|STF|STI|STL|STS|STSW|STT|STX|SUB|SUBF|TD|TIX|WD)\s+(#|@)?\s*(\d+|(\s*[-\+]?\s*\d+\s*[-\+\*\/]\s*\d+\s*))\s*(,\s*(X)\s*)?$)";
     startDirective = R"(^\s*(([A-Z][A-Z0-9]{0,5})\s+)?(START)\s+([0-9A-F]+)\s*$)";
@@ -24,6 +25,7 @@ Parser::Parser() {
     baseDirective = R"(^\s*(BASE)\s+([A-Z][A-Z0-9]*|\d+|((\s*([A-Z][A-Z0-9]*)\s*-\s*([A-Z][A-Z0-9]*)\s*)|(\s*-\s*([A-Z][A-Z0-9]*)\s*\+\s*([A-Z][A-Z0-9]*)\s*)|(\s*([A-Z][A-Z0-9]*)\s*[-\+]\s*\d+\s*)|(\s*[-\+]?\s*\d+\s*\+\s*([A-Z][A-Z0-9]*)\s*)|(\s*[-\+]?\s*\d+\s*[-\+\*\/]\s*\d+\s*)))\s*$)";;
     noBaseDirective = R"(^\s*(NOBASE)\s*$)";
     fOne = regex(formatOne);
+    fThreeFourNoOp = regex(formatThreeFourNoOp);
     fTwoWithOneReg = regex(formatTwoWithOneReg);
     fTwoWithTwoReg = regex(formatTwoWithTwoReg);
     fThreeFourSym = regex(formatThreeFourSym);
@@ -49,6 +51,11 @@ Inst Parser::parseInstruction(string &line) {
         result.format = 1;
         result.label = matches[2].str();
         result.opSym = matches[3].str();
+    } else if (regex_match(line, matches, fThreeFourNoOp)) {
+        result.Valid = true;
+        result.format = matches[3].matched?4:3;
+        result.label = matches[2].str();
+        result.opSym = matches[4].str();
     } else if (regex_match(line, matches, fTwoWithOneReg)) {
         result.Valid = true;
         result.format = 2;
@@ -67,7 +74,7 @@ Inst Parser::parseInstruction(string &line) {
         }
     } else if (regex_match(line, matches, fThreeFourSym)) {
         result.isSym = true;
-        result.Valid = (matches[20].matched && !matches[5].matched) || !(matches[20].matched);
+        result.Valid = (matches[19].matched && !matches[5].matched) || !(matches[19].matched);
         result.label = matches[2].str();
         result.format = matches[3].matched ? 4 : 3;
         result.opSym = matches[4].str();
@@ -83,7 +90,7 @@ Inst Parser::parseInstruction(string &line) {
         if (result.i == result.n && !result.i) {
             result.i = result.n = true;
         }
-        result.x = matches[20].matched;
+        result.x = matches[19].matched;
     } else if (regex_match(line, matches, fThreeFourNonSym)) {
         result.isSym = false;
         result.Valid = (matches[9].matched && !matches[5].matched) || !(matches[9].matched);

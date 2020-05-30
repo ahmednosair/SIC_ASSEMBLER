@@ -20,6 +20,7 @@ private:
     string formatOne;
     string formatTwoWithTwoReg;
     string formatTwoWithOneReg;
+    string formatThreeFourNoOp;
     string formatThreeFourSym;
     string formatThreeFourNonSym;
     string startDirective;
@@ -32,6 +33,7 @@ private:
     string baseDirective;
     string noBaseDirective;
     regex fOne;
+    regex fThreeFourNoOp;
     regex fTwoWithTwoReg;
     regex fTwoWithOneReg;
     regex fThreeFourSym;
@@ -52,6 +54,8 @@ public:
     Directive parseDirective(string &line);
 
     bool isComment(string &line);
+
+
 };
 
 

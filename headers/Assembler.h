@@ -29,6 +29,7 @@ private:
 public:
     Assembler();
 
+    void clear();
     bool assemble(string &filePath);
 
     string assembleInst(Inst &ins);

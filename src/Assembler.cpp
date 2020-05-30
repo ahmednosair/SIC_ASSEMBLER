@@ -81,6 +81,7 @@ Assembler::Assembler() {
 }
 
 bool Assembler::assemble(string &filePath) {
+    clear();
     ifstream input;
     input.open(filePath);
     Inst instruction;
@@ -203,7 +204,7 @@ bool Assembler::assemble(string &filePath) {
     input.close();
     startStr.append(Util::addZeros(Util::decToHex(locCnt - startPos - 1), 6) + '\n');
     ofstream output;
-    output.open("objectCode.txt");
+    output.open("objectCode.txt",ofstream::trunc);
     output << Util::toUpper(startStr) << Util::toUpper(objectCode.str());
     output.close();
     return true;
@@ -405,6 +406,9 @@ string Assembler::assembleFormatTwo(Inst &ins) {
 }
 
 string Assembler::assembleFormatThree(Inst &ins) {
+    if (ins.opSym == "RSUB") {
+        return "4F0000";
+    }
     bitset<8> op(opCode[ins.opSym]);
     op[1] = ins.n;
     op[0] = ins.i;
@@ -479,6 +483,9 @@ string Assembler::assembleFormatFour(Inst &ins) {
     bitset<8> op(opCode[ins.opSym]);
     op[1] = ins.n;
     op[0] = ins.i;
+    if (ins.opSym == "RSUB") {
+        return "4F100000";
+    }
     if (ins.isExp) {
         int value = checkExp(ins) ? assembleExp(ins.exp) : 0;
         string val = bitset<20>(value).to_string();
@@ -518,6 +525,12 @@ void Assembler::createListFile() {
     listing.open("listFile.txt");
     listing << symTable.getTable();
     listing.close();
+}
+
+void Assembler::clear() {
+    objectCode.str("");
+    symTable.clear();
+    isBase = false;
 }
 
 

@@ -70,11 +70,11 @@ bits/stdc++.h
 bits/stdc++.h
 -
 
-/home/ahmed/CLionProjects/SIC_ASSEMBLER/src/main.cpp
-iostream
--
+/home/ahmed/CLionProjects/SIC_ASSEMBLER/src/Assembler.cpp
 ../headers/Assembler.h
 /home/ahmed/CLionProjects/SIC_ASSEMBLER/headers/Assembler.h
+bits/stdc++.h
+-
 ../headers/Util.h
 /home/ahmed/CLionProjects/SIC_ASSEMBLER/headers/Util.h
 

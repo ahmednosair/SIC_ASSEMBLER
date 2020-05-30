@@ -15,6 +15,7 @@ class SymTable {
 public:
     SymTable();
 
+    void clear();
     bool search(string &sym);
 
     void add(string &sym, int address);
