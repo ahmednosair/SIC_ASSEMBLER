@@ -25,7 +25,7 @@ SLOP     LDA     slb
          LDCH    @Sit
          STA     Stmp
          COMP    tmp
-         JEQ     INC
+         SHIFTL  X,3
          JGT     INC
 SWAP     STCH    @it
          LDA     tmp

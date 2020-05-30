@@ -13,6 +13,7 @@ Inst::Inst() {
     i = true;
     x = false;
     e = false;
+    isSym = true;
     isExp = false;
 }
 

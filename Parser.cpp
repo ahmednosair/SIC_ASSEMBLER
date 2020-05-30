@@ -10,7 +10,7 @@ using namespace std;
 
 Parser::Parser() {
     formatOne = R"(^\s*(([A-Z][A-Z0-9]*)\s+)?(RSUB)(\s+(.*)$|$))";
-    formatTwoWithTwoReg = R"(^\s*(([A-Z][A-Z0-9]*)\s+)?(ADDR|COMPR|DIVR|MULR|RMO|SUBR)\s+([AXLBSTF]|PC|SW)\s*,\s*([AXLBSTF]|PC|SW)\s*$)";
+    formatTwoWithTwoReg = R"(^\s*(([A-Z][A-Z0-9]*)\s+)?(ADDR|COMPR|DIVR|MULR|SHIFTL|SHIFTR|RMO|SUBR)\s+([AXLBSTF]|PC|SW)\s*,\s*([AXLBSTF]|PC|SW|[1-9]|[1][1-9]|[2][1-4])\s*$)";
     formatTwoWithOneReg = R"(^\s*(([A-Z][A-Z0-9]*)\s+)?(TIXR|CLEAR)\s+([AXLBSTF]|PC|SW)\s*$)";
     formatThreeFourSym = R"(^\s*(([A-Z][A-Z0-9]*)\s+)?(\+)?\s*(ADD|COMP|COMPF|DIV|DIVF|FIX|FLOAT|J|JLT|JEQ|JGT|JSUB|LDA|LDB|LDCH|LDF|LDL|LDS|LDT|LDX|LPS|MUL|MULF|NORM|OR|RD|RSUB|SSK|STA|STB|STCH|STF|STI|STL|STS|STSW|STT|STX|SUB|SUBF|TD|TIX|WD)\s+(#|@)?\s*([A-Z][A-Z0-9]*|((\s*([A-Z][A-Z0-9]*)\s*-\s*([A-Z][A-Z0-9]*)\s*)|(\s*-\s*([A-Z][A-Z0-9]*)\s*\+\s*([A-Z][A-Z0-9]*)\s*)|(\s*([A-Z][A-Z0-9]*)\s*[-\+]\s*\d+\s*)|(\s*[-\+]?\s*\d+\s*\+\s*([A-Z][A-Z0-9]*)\s*)))\s*(,\s*(X)\s*)?$)";
     formatThreeFourNonSym = R"(^\s*(([A-Z][A-Z0-9]*)\s+)?(\+)?\s*(ADD|COMP|COMPF|DIV|DIVF|FIX|FLOAT|JLT|J|JEQ|JGT|JSUB|LDA|LDB|LDCH|LDF|LDL|LDS|LDT|LDX|LPS|MUL|MULF|NORM|OR|RD|RSUB|SSK|STA|STB|STCH|STF|STI|STL|STS|STSW|STT|STX|SUB|SUBF|TD|TIX|WD)\s+(#|@)?\s*(\d+|(\s*[-\+]?\s*\d+\s*[-\+\*\/]\s*\d+\s*))\s*(,\s*(X)\s*)?$)";
@@ -62,6 +62,9 @@ Inst Parser::parseInstruction(string &line) {
         result.opSym = matches[3].str();
         result.fOp = matches[4].str();
         result.sOp = matches[5].str();
+        if (regex_match(result.sOp, regex(R"(\d+)"))) {
+            result.isSym = false;
+        }
     } else if (regex_match(line, matches, fThreeFourSym)) {
         result.isSym = true;
         result.Valid = (matches[20].matched && !matches[5].matched) || !(matches[20].matched);

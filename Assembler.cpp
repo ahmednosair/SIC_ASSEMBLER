@@ -397,9 +397,12 @@ string Assembler::assembleFormatOne(Inst &ins) {
 }
 
 string Assembler::assembleFormatTwo(Inst &ins) {
-    return Util::addZeros(Util::decToHex(opCode[ins.opSym]), 2) +
-           Util::decToHex(opCode[ins.fOp]) +
-           (ins.sOp.empty() ? "0" : Util::decToHex(opCode[ins.sOp]));
+    int r1 = opCode[ins.fOp];
+    int r2 = 0;
+    if (!ins.sOp.empty()) {
+        r2 = ins.isSym ? opCode[ins.sOp] : (stoi(ins.sOp) - 1);
+    }
+    return Util::addZeros(Util::decToHex(opCode[ins.opSym]), 2) + Util::decToHex(r1) + Util::decToHex(r2);
 }
 
 string Assembler::assembleFormatThree(Inst &ins) {
