@@ -90,6 +90,7 @@ bool Assembler::assemble(string &filePath) {
     string startPosition;
     int startPos;
     int cnt = 2;
+    int mx = INT_MIN;
     while (getline(input, line) && (line.empty() || parser.isComment(line))) {
         cnt++;
     }
@@ -128,7 +129,6 @@ bool Assembler::assemble(string &filePath) {
         if (!line.empty() && !parser.isComment(line)) {
             instruction = parser.parseInstruction(line);
             if (instruction.Valid) {
-                symTable.updateSymEntry(LC, locCnt + instruction.format, true);
                 objCode = (assembleInst(instruction));
                 if (objCode.length() + textRec.getLen() <= 71) {
                     textRec.append(objCode);
@@ -154,7 +154,6 @@ bool Assembler::assemble(string &filePath) {
                         textRec.append(objCode);
                     }
                     locCnt += (int) objCode.length() / 2;
-                    symTable.updateSymEntry(LC, locCnt, true);
                 } else {
                     cout << "\nLine: " << cnt << " Invalid statement\nIncomplete assembly\n";
                     input.close();
@@ -162,6 +161,8 @@ bool Assembler::assemble(string &filePath) {
                 }
             }
         }
+        symTable.updateSymEntry(LC, locCnt, true);
+        mx = max(locCnt, mx);
         cnt++;
     }
     vector<string> unresolved = symTable.getUnresolved();
@@ -202,9 +203,9 @@ bool Assembler::assemble(string &filePath) {
         return false;
     }
     input.close();
-    startStr.append(Util::addZeros(Util::decToHex(locCnt - startPos - 1), 6) + '\n');
+    startStr.append(Util::addZeros(Util::decToHex(mx - startPos - 1), 6) + '\n');
     ofstream output;
-    output.open("objectCode.txt",ofstream::trunc);
+    output.open("objectCode.txt", ofstream::trunc);
     output << Util::toUpper(startStr) << Util::toUpper(objectCode.str());
     output.close();
     return true;

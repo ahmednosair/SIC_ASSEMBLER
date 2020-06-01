@@ -1,41 +1,40 @@
-.23456789012345678901234567890123456
-         START   0000
-BGN      LDX     #0
-         STA     Pr
-         RMO     T,A
-         SUB     #1
+TESTPR     START        0000
+BGN      LDX          #0
+                   STA                              Pr
+           RMO                                                  T,A
+              SUB                                  #1
          RMO     A,T
-LOOP     RMO     T,A
+LOOP     RMO                 T,A
          SUBR    X,A
          STA     slb
-         LDS     #0
+         LDS              #0
 SLOP     LDA     slb
          COMPR   S,A
-         JGT     ELO
+         JGT           ELO
          JEQ     ELO
          LDA     Pr
          ADDR    S,A
          STA     it
          ADD     #1
-         STA     Sit
+         STA                  Sit
          LDA     #0
-         LDCH    @it
+                               LDCH    @it
          STA     tmp
          LDA     #0
-         LDCH    @Sit
+         LDCH                 @Sit
          STA     Stmp
          COMP    tmp
          JEQ     INC
-         JGT     INC
+         JGT                 INC
 SWAP     STCH    @it
-         LDA     tmp
+                     LDA     tmp
          STCH    @Sit
 INC      LDA     #1
          ADDR    A,S
-         J       SLOP
+                     J       SLOP
 ELO      TIXR    T
          JLT     LOOP
-Exit     J       LC
+            Exit     J       LC
 .
 STR      BYTE    C'CBA'
 Pr       RESW    1

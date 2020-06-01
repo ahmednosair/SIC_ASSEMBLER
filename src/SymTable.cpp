@@ -60,9 +60,10 @@ pair<vector<string>, string> SymTable::getUnresolvedExp() {
                 result.push_back(expFwd.exp.sOp);
             }
         } else {
-            int fVal = fOpNum ? stoi(expFwd.exp.fOp) : (expFwd.exp.fOp == "LC" ? expFwd.locCnt : get(
+            int format = expFwd.e ? 4 : 3;
+            int fVal = fOpNum ? stoi(expFwd.exp.fOp) : (expFwd.exp.fOp == "LC" ? expFwd.locCnt - format : get(
                     expFwd.exp.fOp).addr);
-            int sVal = sOpNum ? stoi(expFwd.exp.sOp) : (expFwd.exp.sOp == "LC" ? expFwd.locCnt : get(
+            int sVal = sOpNum ? stoi(expFwd.exp.sOp) : (expFwd.exp.sOp == "LC" ? expFwd.locCnt - format : get(
                     expFwd.exp.sOp).addr);
             SymEntry symEntry(true, expFwd.exp.evaluate(fVal, sVal));
             FwdRef f(expFwd.locCnt, expFwd.base, expFwd.e, expFwd.x, expFwd.addr, expFwd.isBase);
